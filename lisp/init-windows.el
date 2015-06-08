@@ -70,7 +70,7 @@ Call a second time to restore the original window configuration."
 (global-set-key (kbd "<f6>")
                 (lambda ()
                   (interactive)
-                  (switch-to-buffer nil)))
+                  (SWITCH-TO-BUFFER nil)))
 
 
 (provide 'init-windows)
